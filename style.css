@@ -1,0 +1,29 @@
+
+body{
+    padding: 100px;
+}
+
+#display{
+    height: 70px;
+    width: 350px;
+    background-color: lightblue;
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#buttons{
+    display: grid;
+    height: 250px;
+    width: 300px;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    padding: 15px;
+}
+button{
+    background-color: lightcoral;
+    border-color: blanchedalmond;
+    border-radius: 15px;
+    padding: 20px;
+}
