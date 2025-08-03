@@ -1,0 +1,43 @@
+body{
+    padding: 90px;
+}
+#display{
+    height: 60px;
+    width: 300px;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    font-size: 20px;
+   padding-left: 30px;
+}
+#add_item{
+    height: 50px;
+    width: 200px;
+    background-color: darkmagenta;
+   border-radius: 15px;
+   font-size: 30px;
+}
+#list_item{
+ font-size: 20px;
+padding-left: 20px;
+}
+
+.deletebutton{
+    height: 40px;
+    width: 150px;
+    background-color: bisque;
+    border-radius: 20px;
+    margin-left: 270px;
+    margin-bottom: 10px;
+}
+.list{
+    font-size: 30px;
+    padding-left: 20px;
+    list-style: none;
+}
+.complete{
+
+    text-decoration: line-through;
+
+
+
+}
